@@ -1,0 +1,17 @@
+Algorithm (
+    Algorithm is set of instructions that help us to solve the given problem or task.
+    In Programming when we write the function that carries task to do some kind of task or solve 
+    a problem that function represents Algorithm
+ 
+    In short Algorithm is: (
+        Defined  ( განსაზაღვრული ) : Theres a specific sequence of steps to perform a task,
+        Unambiguous ( ცალსახა ) : there is a "correct" and "incorrect" interpretation of the steps for example: (
+            "sort numbers in ascending order" -- correct,
+            "sort numbers in nice way" 
+        ) ,
+        Implementable ( განხორციელებადი ): it can be executed using software and hardware for example : (
+            "Check every number in universe" -- non-Implementable
+            "check every number in the list" -- Implementable
+        )
+    )
+)

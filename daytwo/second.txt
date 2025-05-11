@@ -1,0 +1,47 @@
+Exponents : (
+    Non-Linear Growth it is exponential growth
+
+    Exponents are important to understand when it comes to the execution speed of an algorithm. 
+    If the number of operations grows quickly as the amount of input data increases, the algorithm 
+    will become slower and slower.
+
+    (
+    https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/HV3CXvi.png
+
+        The doubling formula, 2*x, results in linear or straight growth.
+        The quadratic formula, x^2, keeps growing faster and faster.
+    )
+
+    What this has to do with code? :
+
+    Generally we try to avoid writing code that causes the usage of a resource to grow quadratically (with an exponent).
+
+        Sometimes that's a lot of computations (CPU utilization / slowness).
+        Sometimes that's a lot of memory usage (RAM utilization)
+        Sometimes that's a large storage requirement (disk space)
+
+    A notable exception is in cryptography and security: we want to force attackers to waste resources trying to get at our information.
+)
+
+Logarithms : (
+    A logarithm is the inverse of an exponent.
+)
+
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*txEjYZZgv4xSv-Gb4zWo7A.png
+
+usage of logarithm and exponent in code (
+    Generally speaking, it's nice when we can write code that uses log(n) time to run, where n is the amount of data to process. 
+    For example, let's say we have a list of 1,000,000 users, and we want to write an algorithm that finds the user with the most 
+    followers.
+
+    If it takes 1 millisecond to check one user (let's just pretend), a linear algorithm would take 1,000,000 milliseconds, or 
+    about 16 minutes and 40 seconds.
+
+    A quadratic algorithm (exponent) would take 1,000,000,000,000 milliseconds, or about 31.7 years.
+
+    However, a logarithmic algorithm would only take 20 milliseconds!
+)
+
+factorials : (
+    
+)
