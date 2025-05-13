@@ -85,8 +85,3 @@ def print_full_name_and_age(first_names, last_names, ages):
         for lastname in last_names:
             for age in ages:
                 print(firstname, lastname, age)
-
-# O(nm) algorithm  
-# https://www.boot.dev/lessons/7d38f457-fbd2-42ae-adc2-b2ca6f8bfaee
-def get_avg_brand_followers(all_handles, brand_name):
-    pass
