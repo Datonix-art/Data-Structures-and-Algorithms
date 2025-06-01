@@ -75,3 +75,5 @@ def selection_sort(nums):
     return nums
 
 print(selection_sort([21,3541,41,41]))
+
+# https://www.youtube.com/watch?v=XMUe3zFhM5c
